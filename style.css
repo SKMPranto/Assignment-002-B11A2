@@ -89,6 +89,9 @@ a{
 .admission-btn:hover{
     color:#7975f3;
 }
+.hamburger-menu-icon{
+    display: none;
+}
 
 /* Responsive for mobile device  */
 
@@ -103,5 +106,11 @@ a{
     .menu, 
     .contact-btn{
         display: none;
+    }
+    .hamburger-menu-icon{
+        display: inline-block;
+    }
+    .fa-solid, .fa-bars{
+        font-size: 30px;
     }
 }
