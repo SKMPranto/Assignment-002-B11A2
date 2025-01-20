@@ -95,7 +95,7 @@ a{
 
 /* Responsive for mobile device  */
 
-@media screen and (max-width:417px) {
+@media only screen and (max-width:430px) {
     .nav{
         border-bottom:1px solid #FEA301;
     }
