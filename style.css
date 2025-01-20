@@ -24,6 +24,12 @@
     background-color: white;
     color: #FEA301;
 }
+.color1{
+    color: #FEA301;
+}
+.color2{
+    color: #01ACFD;
+}
 /* Nav section styles */
 
 .nav{
@@ -66,13 +72,13 @@ a{
     text-decoration: none;
 }
 .home-btn{
-    color:#FEA301;
+
 }
 .home-btn:hover{
     color:#fdb73d;
 }
 .about-btn{
-    color: #01ACFD;
+
 }
 .about-btn:hover{
     color:#61c4f1;
@@ -93,9 +99,46 @@ a{
     display: none;
 }
 
+/* Banner Section styles */
+.banner-section{
+    width: 100%;
+    height:35.94rem;
+    background-color: #F7F7F7;
+}
+.banner-container{
+    width: 85%;
+    height:100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title{
+    font-size:4rem;
+    font-weight: bold;
+    line-height:4.8125rem;
+}
+.banner-description{
+    font-size:1.85rem;
+    margin:25px 0;
+}
+.enrol-btn{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+.enrol-btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
 /* Responsive for mobile device  */
 
 @media only screen and (max-width:430px) {
+    /* Nav section */
     .nav{
         border-bottom:1px solid #FEA301;
     }
@@ -112,5 +155,30 @@ a{
     }
     .fa-solid, .fa-bars{
         font-size: 30px;
+    }
+    /* Banner Section */
+    .banner-section{
+        background-color: white;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .banner-title{
+        font-size:2rem;
+        line-height:2.8125rem;
+    }
+    .banner-description{
+        font-size:0.93rem;
+    }
+    .break{
+        display: none;
+    }
+    .banner-img{
+        width:21rem;
+        height:25.8rem;
     }
 }
