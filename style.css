@@ -91,3 +91,17 @@ a{
 }
 
 /* Responsive for mobile device  */
+
+@media screen and (max-width:417px) {
+    .nav{
+        border-bottom:1px solid #FEA301;
+    }
+    .container{
+        width: 95%;
+    }
+    .title, 
+    .menu, 
+    .contact-btn{
+        display: none;
+    }
+}
