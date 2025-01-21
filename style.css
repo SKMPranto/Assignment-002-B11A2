@@ -1,184 +1,298 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
 /* Shared styles */
-*{
-    font-family: "Quicksand", serif;
-    margin: 0px;
-    padding: 0px;
+* {
+  font-family: "Quicksand", serif;
+  margin: 0px;
+  padding: 0px;
 }
-.btn-primary{
-    width:12.3125rem;
-    height:3.125rem;
-    border: none;
-    border: 1px solid #F7F7F7;
-    font-size: 1.25rem;
-    font-weight: bold;
-    background-color: #FEA301;
-    color: white;
-    cursor: pointer;
-    transition-duration: 0.4s;
-    border-radius: 0.75rem;
+.btn-primary {
+  width: 12.3125rem;
+  height: 3.125rem;
+  border: none;
+  border: 1px solid #f7f7f7;
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: #fea301;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 0.75rem;
 }
-.btn-primary:hover{
-    border: 1px solid #FEA301;
-    background-color: white;
-    color: #FEA301;
+.btn-primary:hover {
+  border: 1px solid #fea301;
+  background-color: white;
+  color: #fea301;
 }
-.color1{
-    color: #FEA301;
+.color1 {
+  color: #fea301;
 }
-.color2{
-    color: #01ACFD;
+.color2 {
+  color: #01acfd;
+}
+.dark1 {
+  color: #808080;
 }
 /* Nav section styles */
-
-.nav{
-    width: 100%;
-    height:6.38rem;
-    background-color: #F7F7F7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.primary-bg-color {
+  background-color: #f7f7f7;
 }
-.container{
-    width: 85%;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
+.nav {
+  width: 100%;
+  height: 6.38rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.logo{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    gap: 15px;
+.container {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.title{
-    font-size: 2rem;
-    font-weight: bold;
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.title {
+  font-size: 2rem;
+  font-weight: bold;
 }
 /* .menu,{
 
 } */
-.menu-items{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    font-size:1.25rem;
-    font-weight:bold;
+.menu-items {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.home-btn{
-
+.home-btn:hover {
+  color: #fdb73d;
 }
-.home-btn:hover{
-    color:#fdb73d;
+.about-btn:hover {
+  color: #61c4f1;
 }
-.about-btn{
-
+.facilities-btn {
+  color: #05d4df;
 }
-.about-btn:hover{
-    color:#61c4f1;
+.facilities-btn:hover {
+  color: #4feef7;
 }
-.facilities-btn{
-    color: #05D4DF;
+.admission-btn {
+  color: #5d58ef;
 }
-.facilities-btn:hover{
-    color:#4feef7;
+.admission-btn:hover {
+  color: #7975f3;
 }
-.admission-btn{
-    color: #5D58EF;
-}
-.admission-btn:hover{
-    color:#7975f3;
-}
-.hamburger-menu-icon{
-    display: none;
+.hamburger-menu-icon {
+  display: none;
 }
 
 /* Banner Section styles */
-.banner-section{
-    width: 100%;
-    height:35.94rem;
-    background-color: #F7F7F7;
+.banner-section {
+  width: 100%;
+  height: 35.94rem;
 }
-.banner-container{
-    width: 85%;
-    height:100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.banner-container {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.banner-title{
-    font-size:4rem;
-    font-weight: bold;
-    line-height:4.8125rem;
+.banner-title {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 4.8125rem;
 }
-.banner-description{
-    font-size:1.85rem;
-    margin:25px 0;
+.banner-description {
+  font-size: 1.85rem;
+  margin: 25px 0;
 }
-.enrol-btn{
-    background-color: black;
-    color: white;
-    border: 1px solid white;
-    margin-top: 20px;
+.enrol-btn {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  margin-top: 20px;
 }
-.enrol-btn:hover{
-    background-color: white;
-    color: black;
-    border: 1px solid black;
+.enrol-btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
 
+/* Standard Curriculum Section styles */
+
+.curriculum {
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 54.94rem;
+}
+.container-title {
+  font-size: 4.5rem;
+  font-weight: bold;
+  /* line-height: 5.56rem; */
+  text-align: center;
+  margin-bottom: 3.9rem;
+}
+.curriculum-container {
+  width: 85%;
+  height: 30rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.cr-card {
+  width: 23rem;
+  height: 30rem;
+  text-align: center;
+  border-radius: 1.2rem;
+}
+.card-img {
+  margin: 30px 0;
+}
+.card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.card-description {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.card-btn-primary {
+  border: none;
+  background-color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.card1 {
+  background: linear-gradient(180deg, #dbf1fa 0%, #ffffff 40%);
+  box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.1);
+  border: 1px solid #c8ecff;
+}
+.card1-btn {
+  color: #64c8ff;
+}
+.card1-btn:hover {
+  color: #8cd2f8;
+}
+.card2 {
+  background: linear-gradient(180deg, #faefd9 0%, #ffffff 40%);
+  box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f5e6c4;
+}
+.card2-btn {
+  color: #f0aa00;
+}
+.card2-btn:hover {
+  color: #ffc744;
+}
+.card3 {
+  background: linear-gradient(180deg, #ebdffb 0%, #ffffff 40%);
+  box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dfbbff;
+}
+.card3-btn {
+  color: #8700ff;
+}
+.card3-btn:hover {
+  color: #9f30ff;
+}
+.swap-btn-container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.swap-icon {
+  width: 80px;
+  height: 80px;
+  background-color: #fea301;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  border-radius: 50%;
+}
+.swap-btn {
+  border: none;
+  background-color: #fea301;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.swap-btn:hover {
+  background-color: #ffb434;
+  color: #e7e7e7;
+}
 
 /* Responsive for mobile device  */
 
-@media only screen and (max-width:430px) {
-    /* Nav section */
-    .nav{
-        border-bottom:1px solid #FEA301;
-    }
-    .container{
-        width: 95%;
-    }
-    .title, 
-    .menu, 
-    .contact-btn{
-        display: none;
-    }
-    .hamburger-menu-icon{
-        display: inline-block;
-    }
-    .fa-solid, .fa-bars{
-        font-size: 30px;
-    }
-    /* Banner Section */
-    .banner-section{
-        background-color: white;
-    }
-    .banner-container{
-        flex-direction: column-reverse;
-        height: auto;
-    }
-    .banner-content{
-        text-align: center;
-    }
-    .banner-title{
-        font-size:2rem;
-        line-height:2.8125rem;
-    }
-    .banner-description{
-        font-size:0.93rem;
-    }
-    .break{
-        display: none;
-    }
-    .banner-img{
-        width:21rem;
-        height:25.8rem;
-    }
+@media only screen and (max-width: 430px) {
+  /* Nav section */
+  .nav {
+    border-bottom: 1px solid #fea301;
+    background-color: white;
+  }
+  .container {
+    width: 95%;
+  }
+  .title,
+  .menu,
+  .contact-btn {
+    display: none;
+  }
+  .hamburger-menu-icon {
+    display: inline-block;
+  }
+  .fa-solid,
+  .fa-bars {
+    font-size: 30px;
+  }
+  /* Banner Section */
+  .banner-section {
+    background-color: white;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .banner-content {
+    text-align: center;
+  }
+  .banner-title {
+    font-size: 2rem;
+    line-height: 2.8125rem;
+  }
+  .banner-description {
+    font-size: 0.93rem;
+  }
+  .break {
+    display: none;
+  }
+  .banner-img {
+    width: 21rem;
+    height: 25.8rem;
+  }
 }
