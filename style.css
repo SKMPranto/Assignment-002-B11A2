@@ -523,9 +523,6 @@ a {
     }
 
     /* Marquee section responsive style */
-    .marquee-tag{
-      display: none;
-    }
     .marquee-title{
       font-size:1em;
     }
